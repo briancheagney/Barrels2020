@@ -1,0 +1,46 @@
+Begin Object Class=/Script/Engine.Material Name="Chrome"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_1"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionVectorParameter Name="MaterialExpressionVectorParameter_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=1.000000
+      MaterialExpressionEditorX=-218
+      MaterialExpressionEditorY=100
+      MaterialExpressionGuid=7A85EAAE4CA63299D53A1E8F246415BE
+      Material=Material'"Chrome"'
+   End Object
+   Begin Object Name="MaterialExpressionConstant_1"
+      R=0.250000
+      MaterialExpressionEditorX=-198
+      MaterialExpressionEditorY=185
+      MaterialExpressionGuid=42EF72BD47A4FBDED6FF0A8F66EFE688
+      Material=Material'"Chrome"'
+   End Object
+   Begin Object Name="MaterialExpressionVectorParameter_0"
+      DefaultValue=(R=0.347656,G=0.446987,B=0.463542,A=0.000000)
+      ExpressionGUID=EA15ED494539610428982BA5669EE73F
+      MaterialExpressionEditorX=-240
+      MaterialExpressionEditorY=-144
+      MaterialExpressionGuid=64CBD04D4487594AD91644870CD55183
+      Material=Material'"Chrome"'
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   BaseColor=(Expression=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Metallic=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_0"')
+   Roughness=(Expression=MaterialExpressionConstant'"MaterialExpressionConstant_1"')
+   bUsedWithStaticLighting=True
+   Expressions(0)=MaterialExpressionVectorParameter'"MaterialExpressionVectorParameter_0"'
+   Expressions(1)=MaterialExpressionConstant'"MaterialExpressionConstant_0"'
+   Expressions(2)=MaterialExpressionConstant'"MaterialExpressionConstant_1"'
+   ParameterGroupData(0)=(GroupName="None")
+   bCanMaskedBeAssumedOpaque=True
+   StateId=FE58C30F4C7859BCD275A5B4EC55C9B5
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=06C491A34CDE416EA059848108F4CC83
+End Object
